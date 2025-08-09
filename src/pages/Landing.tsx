@@ -113,18 +113,7 @@ const Landing = () => {
               </ul>
             </div>
             
-            <div className="bg-gradient-to-br from-medical-primary/20 to-medical-secondary/20 rounded-2xl p-8">
-              <div className="text-center">
-                <div className="text-4xl font-bold text-medical-secondary mb-2">50,000+</div>
-                <div className="text-muted-foreground mb-6">Scans Analyzed</div>
-                
-                <div className="text-4xl font-bold text-medical-accent mb-2">98.5%</div>
-                <div className="text-muted-foreground mb-6">Accuracy Rate</div>
-                
-                <div className="text-4xl font-bold text-medical-primary mb-2">24/7</div>
-                <div className="text-muted-foreground">AI Assistance</div>
-              </div>
-            </div>
+            
           </div>
         </div>
       </section>
