@@ -1,8 +1,6 @@
 import { Activity } from "lucide-react";
-
 const Footer = () => {
-  return (
-    <footer className="bg-card border-t border-border mt-auto">
+  return <footer className="bg-card border-t border-border mt-auto">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
@@ -31,9 +29,9 @@ const Footer = () => {
           <div>
             <h3 className="text-sm font-semibold text-foreground mb-4">Contact</h3>
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Email: support@radassist.com</p>
-              <p>Phone: +1 (555) 123-4567</p>
-              <p>Address: 123 Medical Center Dr</p>
+              <p>Email: vishnuarunkumar247@gmail.com</p>
+              <p>Phone: 8838738438</p>
+              <p>Address: Adyar</p>
             </div>
           </div>
         </div>
@@ -44,8 +42,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
