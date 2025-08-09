@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Activity, Shield, Zap, Users, CheckCircle } from "lucide-react";
 import Navbar from "@/components/Layout/Navbar";
 import Footer from "@/components/Layout/Footer";
-import heroImage from "@/assets/medical-hero.jpg";
+import heroImage from "@/assets/medical-hero-bg.jpg";
 const Landing = () => {
   const features = [{
     icon: Activity,
